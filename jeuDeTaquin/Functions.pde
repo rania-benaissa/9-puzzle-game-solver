@@ -8,7 +8,7 @@ void dessiner(){
 
      n = solution.get(0);      
      
-     cp5.get(Textfield.class,"nbcoupsValue").setText(String.valueOf(solution.size() + " coups"));
+     cp5.get(Textfield.class,"nbcoupsValue").setText(String.valueOf(solution.size() ));
      
     }
 
@@ -100,13 +100,13 @@ void prepareText(){
 
     cp5 = new ControlP5(this);
     
-    algo1 = new Textlabel(cp5,"Heuristique 1 : ", 20, 330);
-    algo2 = new Textlabel(cp5,"Heuristique 2 : ", 20, 390);
-    tAlgo1Label = new Textlabel(cp5,"Temps d'execution : ", 10, 360);
-    tAlgo2Label = new Textlabel(cp5,"Temps d'execution :", 10, 420);
-    nbNode1Label = new Textlabel(cp5,"Nb.noeuds parcourus : ", 220, 360);
-    nbNode2Label = new Textlabel(cp5,"Nb.noeuds parcourus : ", 220, 420);
-    nbcoupsLabel = new Textlabel(cp5,"Nombre de coups restants : ", 60, 50);
+    algo1 = new Textlabel(cp5,"Heuristic 1 : ", 20, 330);
+    algo2 = new Textlabel(cp5,"Heuristic 2 : ", 20, 390);
+    tAlgo1Label = new Textlabel(cp5,"Execution time : ", 10, 360);
+    tAlgo2Label = new Textlabel(cp5,"Execution time :", 10, 420);
+    nbNode1Label = new Textlabel(cp5,"Nb.Visited nodes : ", 220, 360);
+    nbNode2Label = new Textlabel(cp5,"Nb.Visited nodes : ", 220, 420);
+    nbcoupsLabel = new Textlabel(cp5,"Remaining shots :", 60, 50);
 
     cp5.addTextfield("tAlgo1")
      .setPosition(150,355)
@@ -158,7 +158,7 @@ void prepareText(){
      .setLabel("")
      .setColorBackground(#00695c)
      .setColorForeground(#00695c)
-     .setText("0 coups")
+     .setText("0 ")
      .lock()
      .setFont(font2);
     
