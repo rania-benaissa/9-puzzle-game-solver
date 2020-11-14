@@ -1,5 +1,5 @@
 # 9-puzzle game solver
- An 9-puzzle game solver created with Processing 3
+ A 9-puzzle game solver created with Processing 3
 
 
 ## Introduction
