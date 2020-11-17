@@ -14,7 +14,7 @@ The solver implements the A* search algorithm and compares its execution time an
 
 ## Prerequisites
 
-* Install Processing 3.5.*
-* Install controlP5 library for Processing
+*  Processing 3.5.*
+*  ControlP5 library for Processing
 
 
