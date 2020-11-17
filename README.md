@@ -2,7 +2,7 @@
  A 9-puzzle game solver created with Processing 3
 
 
-## Introduction
+## Description
 
 Given a specific configuration, the solver will find the cheapest solution (if it exists) to the game.
 
