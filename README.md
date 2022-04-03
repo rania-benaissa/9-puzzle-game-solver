@@ -11,6 +11,7 @@ The solver implements the A* search algorithm and compares its execution time an
 1. **Heuristic 1 :** considers the misplaced tiles
 2. **Heuristic 2 :** euclidean distance between two tiles
 
+![Game_execution_exemple](/taquin.png)
 
 ## Prerequisites
 
